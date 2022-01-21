@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ImageFromInternalStorage</string>
+    <string name="set_status_bar_color">Set StatusBar Color </string>
+    <string name="set_actionbar_color">Set ActionBar Color </string>
+    <string name="set_folder">Set Folder </string>
+
+    <style name="WwHwTS15">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25dp</item>
+        <item name="color">@color/black</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+    
+    <string-array name="color">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Pink</item>
+        <item>Blue</item>
+        <item>Teal</item>
+        <item>Gray</item>
+        <item>Black</item>
+    </string-array>
+    
+    <string-array name="Path">
+        <item>Images</item>
+        <item>Picture</item>
+        <item>Download</item>
+        <item>Photos</item>
+    </string-array>
+
+</resources>

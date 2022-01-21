@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Screen Setting">
+        <ListPreference android:title="@string/set_status_bar_color"
+            android:key="StatusColor"
+            app:useSimpleSummaryProvider="true"
+            android:entries="@array/color"
+            android:entryValues="@array/color"/>
+        <ListPreference android:title="@string/set_actionbar_color"
+            android:key="ActionColor"
+            app:useSimpleSummaryProvider="true"
+            android:entries="@array/color"
+            android:entryValues="@array/color"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Set FOlder">
+        <ListPreference android:title="@string/set_folder"
+            android:key="FolderPath"
+            app:useSimpleSummaryProvider="true"
+            android:entryValues="@array/Path"
+            android:defaultValue="Images"
+            android:entries="@array/Path"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
